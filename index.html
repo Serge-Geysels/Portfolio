@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serge Geysels Software Developer</title>
+    <meta name="description" content="Portfolio van Serge Geysels, Software Developer">
+    <meta name="theme-color" content="#0d1224">
+    <link rel="icon" type="image/png" href="Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="Logo.png" alt="Serge Geysels" class="logo">
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">ABOUT</a></li>
+                <li><a href="#skills" class="nav-link">SKILLS</a></li>
+                <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+                <li><a href="#education" class="nav-link">EDUCATION</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h1 class="hero-heading">Hello,<br>This is <span class="text-pink">Serge Geysels</span><br>I'm a Professional <span class="text-green">Software Developer</span>.</h1>
+                    <div class="hero-social">
+                        <a href="https://github.com/Scorpio9990" target="_blank" class="social-link"><svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                        <a href="https://www.linkedin.com/in/serge-geysels-b11b41397/" target="_blank" class="social-link"><svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                        <a href="mailto:sergegeysels04@gmail.com" class="social-link"><svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg></a>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-outline">Contact me</a>
+                    </div>
+                </div>
+                <div class="hero-code-window">
+                    <div class="window-header">
+                        <div class="window-dots">
+                            <span class="dot red"></span><span class="dot orange"></span><span class="dot green"></span>
+                        </div>
+                    </div>
+                    <div class="window-code">
+                        <code>
+                            <div class="blink"><span class="pink">const</span> <span class="white">coder</span> <span class="pink">=</span> <span class="gray">{'{'}</span></div>
+                            <div><span class="ml-4 white">name:</span> <span class="gray">'</span><span class="amber">Serge Geysels</span><span class="gray">',</span></div>
+                            <div class="ml-4"><span class="white">skills:</span> <span class="gray">['</span><span class="amber">HTML</span><span class="gray">', '</span><span class="amber">CSS</span><span class="gray">', '</span><span class="amber">JavaScript</span><span class="gray">', '</span><span class="amber">React</span><span class="gray">', '</span><span class="amber">PHP</span><span class="gray">', '</span><span class="amber">MySQL</span><span class="gray">'],</span></div>
+                            <div><span class="ml-4 white">hardWorker:</span> <span class="orange">true</span><span class="gray">,</span></div>
+                            <div><span class="ml-4 white">quickLearner:</span> <span class="orange">true</span><span class="gray">,</span></div>
+                            <div><span class="ml-4 white">problemSolver:</span> <span class="orange">true</span><span class="gray">,</span></div>
+                            <div><span class="ml-4 green">hireable:</span> <span class="orange">function</span><span class="gray">() {</span></div>
+                            <div><span class="ml-8 orange">return</span> <span class="gray">(</span></div>
+                            <div><span class="ml-12 cyan">this.</span><span class="white">hardWorker</span> <span class="amber">&amp;&amp;</span></div>
+                            <div><span class="ml-12 cyan">this.</span><span class="white">problemSolver</span> <span class="amber">&amp;&amp;</span></div>
+                            <div><span class="ml-12 cyan">this.</span><span class="white">skills.length</span> <span class="amber">&gt;=</span> <span class="orange">6</span></div>
+                            <div><span class="ml-8 gray">);</span></div>
+                            <div><span class="ml-4 gray">}</span></div>
+                            <div><span class="gray">};</span></div>
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="section-side-label">
+                <span class="label-text">ABOUT ME</span>
+                <span class="label-line"></span>
+            </div>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p class="about-heading">Who I am?</p>
+                    <p class="about-text">Ik ben Serge Geysels, 21 jaar en student Software Development bij MBO Niveau 4. Ik ben gepassioneerd over programmeren en het maken van websites en applicaties. Als quick learner met een zelflerend vermogen, duik ik graag in nieuwe
+                        technologieën en los ik graag problemen op. Mijn kernvaardigheden liggen in zowel frontend als backend development, waarbij ik vooral geniet van het werken met TypeScript en moderne web frameworks. Ik ben beschikbaar voor stages
+                        en projecten die aansluiten bij mijn skills en interesses.</p>
+                </div>
+                <div class="about-image">
+                    <img src="Logo.png" alt="Serge Geysels" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-padding section-border">
+        <div class="container">
+            <div class="section-header-center">
+                <span class="section-label">Skills</span>
+            </div>
+            <div class="skills-marquee">
+                <div class="marquee-content" id="marqueeContent"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <div class="section-header-sticky">
+                <span class="section-label">PROJECTS</span>
+                <span class="label-line-full"></span>
+            </div>
+            <div class="projects-stack">
+                <div class="project-card sticky-card">
+                    <div class="project-header">
+                        <div class="project-header-line"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-dots">
+                            <span class="dot red"></span>
+                            <span class="dot orange"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-icon-large">🎮</div>
+                            <h3 class="project-title">Horror Game</h3>
+                            <p class="project-description">Samen met een klasgenoot + 2 leerlingen van mediavormgeving hebben we een horror game gemaakt voor school. Complete game met graphics, sound effects en gameplay mechanics.</p>
+                            <div class="project-tech">
+                                <span class="tech-badge">Unity</span>
+                                <span class="tech-badge">C#</span>
+                                <span class="tech-badge">Game Design</span>
+                            </div>
+                            <p class="project-role">Role: Game Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card sticky-card">
+                    <div class="project-header">
+                        <div class="project-header-line"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-dots">
+                            <span class="dot red"></span>
+                            <span class="dot orange"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-icon-large">✂️</div>
+                            <h3 class="project-title">Arte Peluqueros Website</h3>
+                            <p class="project-description">Een professionele website voor een kapperszaak in Spanje. Volledig responsive design met online afspraaksysteem en fotogalerij. Werkt op alle apparaten.</p>
+                            <div class="project-tech">
+                                <span class="tech-badge">HTML</span>
+                                <span class="tech-badge">CSS</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">PHP</span>
+                            </div>
+                            <p class="project-role">Role: Full Stack Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card sticky-card">
+                    <div class="project-header">
+                        <div class="project-header-line"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-dots">
+                            <span class="dot red"></span>
+                            <span class="dot orange"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-icon-large">🏦</div>
+                            <h3 class="project-title">Online Banking App</h3>
+                            <p class="project-description">Een complete online bankieren applicatie gebouwd met React. Bevat account management, transaction history en moderne UI/UX design patterns.</p>
+                            <div class="project-tech">
+                                <span class="tech-badge">React</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">CSS</span>
+                                <span class="tech-badge">API Integration</span>
+                            </div>
+                            <p class="project-role">Role: Frontend Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card sticky-card">
+                    <div class="project-header">
+                        <div class="project-header-line"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-dots">
+                            <span class="dot red"></span>
+                            <span class="dot orange"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-icon-large">🤖</div>
+                            <h3 class="project-title">AI Planning Tool</h3>
+                            <p class="project-description">Een AI-gebaseerde tool die mensen helpt met planning en organisatie. Gemaakt met moderne AI technologie om te laten zien hoe goed we AI kunnen integreren in applicaties.</p>
+                            <div class="project-tech">
+                                <span class="tech-badge">AI/ML</span>
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">API</span>
+                            </div>
+                            <p class="project-role">Role: AI Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card sticky-card">
+                    <div class="project-header">
+                        <div class="project-header-line"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-dots">
+                            <span class="dot red"></span>
+                            <span class="dot orange"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-icon-large">🍿</div>
+                            <h3 class="project-title">Plan & Chill</h3>
+                            <p class="project-description">Een innovatieve app die je helpt om de perfecte avond te plannen. Kies een restaurant en een film in één app, gebaseerd op jouw locatie en voorkeuren. De app vindt automatisch restaurants en bioscopen bij jou in de buurt.</p>
+                            <div class="project-tech">
+                                <span class="tech-badge">React</span>
+                                <span class="tech-badge">API Integration</span>
+                                <span class="tech-badge">Geolocation</span>
+                                <span class="tech-badge">JavaScript</span>
+                            </div>
+                            <p class="project-role">Role: Full Stack Developer</p>
+                            <button class="btn btn-gradient view-project-btn" onclick="openProjectModal('planChill')">Bekijk meer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeProjectModal()">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <section id="education" class="section-padding section-border">
+        <div class="container">
+            <div class="section-header-center">
+                <span class="section-label">Educations</span>
+            </div>
+            <div class="education-grid">
+                <div class="education-animation">
+                    <div class="study-animation">📚</div>
+                </div>
+                <div class="education-list">
+                    <div class="education-card glow-card">
+                        <p class="education-duration">2024 - Present</p>
+                        <div class="education-content">
+                            <div class="education-icon">🎓</div>
+                            <div>
+                                <p class="education-title">Software Developer</p>
+                                <p class="education-institution">MBO Niveau 4</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education-card glow-card">
+                        <p class="education-duration">2021 - 2024</p>
+                        <div class="education-content">
+                            <div class="education-icon">🎓</div>
+                            <div>
+                                <p class="education-title">ICT Support</p>
+                                <p class="education-institution">MBO Niveau 2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="section-side-label right">
+                <span class="label-text">CONTACT</span>
+                <span class="label-line"></span>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-form-wrapper">
+                    <p class="contact-heading">Contact with me</p>
+                    <div class="contact-form-box">
+                        <p class="contact-subtext">Als je vragen of opmerkingen hebt, aarzel dan niet om contact met me op te nemen. Ik sta open voor werkgelegenheden die aansluiten bij mijn vaardigheden en interesses.</p>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label>Your Name:</label>
+                                <input type="text" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Your Email:</label>
+                                <input type="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Your Message:</label>
+                                <textarea name="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-gradient">
+                                Send Message
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <span>sergegeysels04@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <span>Nederland</span>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="https://github.com/Scorpio9990" target="_blank" class="social-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/serge-geysels-b11b41397/" target="_blank" class="social-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                        <a href="mailto:sergegeysels04@gmail.com" class="social-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-divider"></div>
+            <div class="footer-content">
+                <p>© Portfolio by <a href="https://www.linkedin.com/in/sergegeysels" target="_blank" class="footer-link">Serge Geysels</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
