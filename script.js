@@ -146,9 +146,9 @@ const projectData = {
         title: 'Plan & Chill',
         description: 'Een innovatieve app die je helpt om de perfecte avond te plannen. Kies een restaurant en een film in één app, gebaseerd op jouw locatie en voorkeuren. De app vindt automatisch restaurants en bioscopen bij jou in de buurt.',
         images: [
-            'images/Plan&chill1.png',
-            'images/Plan&chill2.png',
-            'images/Plan&chill3.png'
+            'images/Planchill1.png',
+            'images/Planchill2.png',
+            'images/Planchill3.png'
         ]
     }
 };
