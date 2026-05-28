@@ -150,6 +150,15 @@ const projectData = {
             'images/Planchill2.png',
             'images/Planchill3.png'
         ]
+    },
+    bakkerijScalda: {
+        title: 'Bakkerij Scalda Middelburg',
+        description: 'Een bakkerijproject voor Scalda Middelburg, gemaakt in een team van 3. De screenshots tonen de homepagina, inlogpagina en productpagina van het project.',
+        images: [
+            'images/Bakkerij-home.png',
+            'images/Bakkerij-inlog.png',
+            'images/Bakkerij-product.png'
+        ]
     }
 };
 
